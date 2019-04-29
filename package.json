@@ -3,12 +3,14 @@
   "description": "",
   "version": "1.0.0",
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "serve": "sleep 2 && open http://localhost:5000/src/main & npx serve"
   },
   "devDependencies": {
     "assemblyscript": "AssemblyScript/assemblyscript",
     "gulp": "^3",
     "prettier": "^1.17.0",
+    "serve": "^11.0.0",
     "tslint": "^5.16.0",
     "typescript": "^3.4.5"
   },
